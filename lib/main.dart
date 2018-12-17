@@ -1,6 +1,7 @@
-import "package:flutter/material.dart";
+import 'package:flutter/material.dart';
+import 'DemoExampleStateManage.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(AppDemoStateSelfManage());
 
 class MyApp extends StatelessWidget {
   @override

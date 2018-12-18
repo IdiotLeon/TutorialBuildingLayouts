@@ -1,7 +1,17 @@
 import 'package:flutter/material.dart';
-import 'DemoExampleStateManage.dart';
+// void main() => runApp(MyApp());
 
-void main() => runApp(AppDemoStateSelfManage());
+import 'DemoExampleStateManage.dart';
+// void main() => runApp(AppDemoStateSelfManage());
+
+import 'NavigationExample/FirstScreen.dart';
+
+void main() {
+  runApp(MaterialApp(
+    title: 'Navigation Basics',
+    home: FirstScreen(),
+  ));
+}
 
 class MyApp extends StatelessWidget {
   @override

@@ -20,7 +20,11 @@ import 'NavigationExample/NavigationWithData.dart';
 
 import 'NavigationExample/ReturnDataFromAScreen.dart';
 
-void main() => runApp(AppReturningDataFromAScreen());
+// void main() => runApp(AppReturningDataFromAScreen());
+
+import 'NavigationExample/NavigationWithNamedRoutes.dart';
+
+void main() => runApp(AppNavigationWithNameRoutes());
 
 class MyApp extends StatelessWidget {
   @override
